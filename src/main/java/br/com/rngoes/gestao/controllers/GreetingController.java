@@ -1,6 +1,6 @@
-package br.com.rngoes.controllers;
+package br.com.rngoes.gestao.controllers;
 
-import br.com.rngoes.model.Greeting;
+import br.com.rngoes.gestao.model.Greeting;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
