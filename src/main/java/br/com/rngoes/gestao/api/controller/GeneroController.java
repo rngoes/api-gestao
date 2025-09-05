@@ -1,7 +1,6 @@
 package br.com.rngoes.gestao.api.controller;
 
 import br.com.rngoes.gestao.domain.model.Genero;
-import br.com.rngoes.gestao.domain.repository.GeneroRepository;
 import br.com.rngoes.gestao.domain.service.RegistroGeneroService;
 import jakarta.validation.Valid;
 import lombok.AllArgsConstructor;
