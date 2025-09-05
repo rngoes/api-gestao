@@ -1,0 +1,9 @@
+create table status_aprovacao (
+    id bigint not null auto_increment,
+    descricao varchar(20) not null,
+
+    primary key (id)
+);
+
+alter table status_aprovacao
+add constraint uk_status_aprovacao unique (descricao)
